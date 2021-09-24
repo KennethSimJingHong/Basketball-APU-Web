@@ -1,0 +1,98 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name = "description" content = "Gallery Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Basketball Club</Title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!--javascript function for the responsive nav bar-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+    <script type="text/javascript" src="functioning.js">
+    </script>
+
+</head>
+<body>
+<header>
+    <button onclick="topFunction()" id="BUTton"><i class="fas fa-arrow-up"></i></button> <!--This is a scrolltotop button-->
+    <nav id="navi" onscroll="navFunction()">
+        <div class="toggle">
+                <i class="fas fa-bars menu"></i>
+        </div>
+        <div class="logocnt">
+            <p class="logo">HYPE.</p>
+        </div>
+        <ul class="topnav">
+            <li><a href="index.html" class="unique">Home</a></li>
+            <li class="dropdown"><a href="#" class="dropbtn">Info</a>
+                <div class="dropdown-content">
+                    <a href="whatwedo.html">What We Do</a>
+                    <a href="event.html">Event</a>
+                    <a href="getinvolved.html">Get Involved</a>
+                    <a href="news.html" class="last">News</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="#" class="dropbtn">About</a>
+                <div class="dropdown-content">
+                    <a href="basketball.html">Basketball</a>
+                    <a href="history.html">History</a>
+                    <a href="gallery.html" class="last">Gallery</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="#" class="dropbtn">Form</a>
+                <div class="dropdown-content">
+                    <a href="registration.html">Registration</a>
+                    <a href="feedbackform.html" class="last">Feedback</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="headingsec3">
+    <h1>Photo Gallery</h1>
+</div>
+<div class="parasec2">
+    <p>The photo gallery contains images on the basketball courts and facilities provided under Asia Pacific University. It is designed to be used at outdoor and can be seen beside the student on-campus accomodation and behind the parking lots.  Basketball club will organized events on the court every week in specific time. 
+    </p>
+</div>
+
+
+<div class="winningcont">
+    <div class="winningsec">
+        <h1>Basketball Competition</h1>
+        <p>Beside is one of the basketball competitions organized by the club owner to encourage club members to join the competition on winning appalling rewards and attract more students to join the club to get to know more about basketball.</p>
+    </div>
+</div>
+
+
+<div class="sldcont">
+    <div class="sldwrap">
+        <div class="inner-wrap">
+            <div class="sld"><img src="gallery1.jpg"></div>
+            <div class="sld"><img src="gallery2.jpg"></div>
+            <div class="sld"><img src="gallery3.jpg"></div>
+            <div class="sld"><img src="gallery4.jpg"></div>
+            <div class="sld"><img src="gallery5.jpg"></div>
+            <div class="sld"><img src="gallery6.jpg"></div>
+        </div>
+    </div>
+    <div class="leftbttn"><i class="fas fa-chevron-left" onclick="press(-1)"></i></div>
+    <div class="rightbttn" onclick="press(+1)"><i class="fas fa-chevron-right"></i></div>
+</div>
+
+<footer>
+    <div class="icon">
+        <ul>
+            <li><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <hr color="white"/>
+    <div class="copyright">
+        Copyright &copy; FDDassignment| Developer: Kenneth & Chester & Lee Shin
+    </div>
+</footer>
+</body>
+</html>

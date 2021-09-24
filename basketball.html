@@ -1,0 +1,128 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name = "description" content = "Home Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Basketball Club</Title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="functioning.js"></script>
+</head>
+<body>
+<header>
+    <button onclick="topFunction()" id="BUTton"><i class="fas fa-arrow-up"></i></button> <!--This is a scrolltotop button-->
+    <nav id="navi" onscroll="navFunction()">
+        <div class="toggle">
+                <i class="fas fa-bars menu"></i>
+        </div>
+        <div class="logocnt">
+            <p class="logo">HYPE.</p>
+        </div>
+        <ul class="topnav">
+            <li><a href="index.html" class="unique">Home</a></li>
+            <li class="dropdown"><a href="#" class="dropbtn">Info</a>
+                <div class="dropdown-content">
+                    <a href="event.html">Event</a>
+                    <a href="getinvolved.html">Get Involved</a>
+                    <a href="news.html" class="last">News</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="#" class="dropbtn">About</a>
+                <div class="dropdown-content">
+                    <a href="basketball.html">Basketball</a>
+                    <a href="history.html">History</a>
+                    <a href="gallery.html" class="last">Gallery</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="#" class="dropbtn">Form</a>
+                <div class="dropdown-content">
+                    <a href="registration.html">Registration</a>
+                    <a href="feedbackform.html" class="last">Feedback</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="headingsec2">
+    <h1>Basketball</h1>
+</div>
+<div class="parasec1">
+    <p>This section defines everything about basketball including the instruction and requirement on a basketball match, rules and regulations that every players have to follow and some interesting detail about how basketball is the current form. Some videos are provided on this page to allow the students to get in touch with knowledge of basketball.
+    </p>
+</div>
+<div class ="foulcont">
+    <h2>Basketball Foul</h2>
+    <div class="seccontainer">
+        <div class="box">
+            <div class="icon"><i class="fas fa-search"></i></div>
+            <div class="contentz">
+                <h3>Personal Fouls</h3>
+                <p>Any violation committed is counted as personal fouls on the player. The defender can only block the opponent with the chest and move sideway and backward to defend. Any contact with the arms, shoulder, hips or knees can lead to a foul. If a player committed five fouls, he will be expelled from the game match. Each fouls will be penalized by two free-throws.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fas fa-search"></i></div>
+            <div class="contentz">
+                    <h3>Unsporting Behavior Fouls</h3>
+                    <p>If a player playing rough or excessive contact, the referee can call for unsporting behavior. If a player committed both kind of fouls, they will be sent off for the rest of the game. Technical foul in case of illegal gamemanship or dispute are penalized with one or more free-throws. During games, avoid committing fouls that there can be heavy penalties to the team.</p>
+            </div>
+        </div>
+    </div>
+    <div><button type="submit" onclick="videofunction()">Click to view video</button></div>
+    <iframe id="togglevideo" width="560" height="315" src="https://www.youtube.com/embed/UJbBUi7SgtM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="display:none"></iframe>
+</div>
+<div class="backcontainer">
+    <div class="sldcont">
+        <div class="sldwrap">
+            <div class="inner-wrap">
+                    <div class="sld"><img src="slider5.png"></div>
+                    <div class="sld"><img src="slider1.png"></div>
+                    <div class="sld"><img src="slider2.png"></div>
+                    <div class="sld"><img src="slider3.png"></div>
+                    <div class="sld"><img src="slider4.png"></div>
+            </div>
+        </div>
+
+        <div class="leftbttn"><i class="fas fa-chevron-left" onclick="press(-1)"></i></div>
+        <div class="rightbttn"><i class="fas fa-chevron-right" onclick="press(+1)"></i></div>
+    </div>
+    <h2>What to Know About Basketball</h2>
+    <div class="r_n_rcont">
+        <div class="r_n_r">
+            <ol>
+                <li>The basketball is played  a 22 to 28 meters long and 13 to 15 meters wide rectangular court.</li> 
+                <li>At each end of the court there is a 45cm wide hoop fixed on a panel suspended 3.05m above the ground.</li>
+                <li>Two teams of players compete over 4 quarters of 10 minutes.</li>
+                <li>A scored shot called a field goal is worth 2 points or 3 if the player has thrown the ball from outside of the three-point arc.</li>
+                <li>With tie game match in overtime, the teams will be given 5-minute rounds until one team wins.</li>
+
+            </ol>
+        </div>
+    </div>
+</div>
+<div class="extracont">
+    <img src = "extrasec.jpg" class="contimg">
+    <div class="extrasec">
+        <h3>Did you know?</h3>
+        <p>Basketball is made with dotted surface to increase friction when contact. In early basketball games, the teams were using soccer balls to play. With the smooth surface of the ball,combined with the oil-polished floors, it created a slip-and-slide during game time. Players become more concerned about just trying to hold on the ball and less concerned about the purpose of the game.</p>
+    </div>
+</div>
+<footer>
+    <div class="icon">
+        <ul>
+            <li><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <hr color="white"/>
+    <div class="copyright">
+        Copyright &copy; FDDassignment| Developer: Kenneth & Chester & Lee Shin
+    </div>
+</footer>
+</body>
+
+</html>

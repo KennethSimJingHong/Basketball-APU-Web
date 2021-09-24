@@ -1,0 +1,120 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name = "description" content = "Home Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Basketball Club</Title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="functioning.js"></script>
+</head>
+<body>
+<header>
+    <button onclick="topFunction()" id="BUTton"><i class="fas fa-arrow-up"></i></button> <!--This is a scrolltotop button-->
+    <nav id="navi" onscroll="navFunction()">
+        <div class="toggle">
+                <i class="fas fa-bars menu"></i>
+        </div>
+        <div class="logocnt">
+            <p class="logo">HYPE.</p>
+        </div>
+        <ul class="topnav">
+            <li><a href="index.html" class="unique">Home</a></li>
+            <li class="dropdown"><a href="#" class="dropbtn">Info</a>
+                <div class="dropdown-content">
+                    <a href="event.html">Event</a>
+                    <a href="getinvolved.html">Get Involved</a>
+                    <a href="news.html" class="last">News</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="#" class="dropbtn">About</a>
+                <div class="dropdown-content">
+                    <a href="basketball.html">Basketball</a>
+                    <a href="history.html">History</a>
+                    <a href="gallery.html" class="last">Gallery</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="#" class="dropbtn">Form</a>
+                <div class="dropdown-content">
+                    <a href="registration.html">Registration</a>
+                    <a href="feedbackform.html" class="last">Feedback</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="headingsec2">
+    <h1>Registration Form</h1>
+</div>
+
+<div class="parasec1">
+    <p>This section provide a registration form for the students who want to join the basketball club. The information of the students will be documented and regarded once it is submitted to APU basketball club database. Message will be delivered once the student registration is confirmed.</p>
+</div>
+<div class="feedbackcont" style="height:160vh">
+    <div class="feedbacksec">
+        <h1>Join us now</h1>
+        <form name="registerForm" action ="#" onsubmit="return validate1Form()" method="post">
+            <div class="linefb">
+                <label for="name">Name:</label>
+                <input type="name" id="name" placeholder="Include first name and last name" name="rname">
+            </div>
+            <div class="linefb">
+                <label for ="stdid">TP Number: </label>
+                <input id="stdid" type="Text" maxlength="8" placeholder="Include 'TP'" name ="rtpnumber">
+            </div>
+            <div class="linefb">
+                <label for="age">Age: </label>
+                <input type="number" id="age" name = "rage">
+            </div>
+            <div class="linefb">
+                <label for="phonenum">Phone Number: </label>
+                <input id="phonenum" type="text" size="40"placeholder="eg. 012-3456789" name ="rphone">
+            </div>
+            <div class="linefb">
+                <label for="address">Address: </label>
+                <textarea name ="raddress" id="address"></textarea>
+            </div>
+            <div class="linefb">
+                <label for="postcode">Postcode: </label>
+                <input id="postcode" type="text" placeholder="eg. 98000" size="40" name = "rpostcode">
+            </div>
+            <div class="linefb">
+                <label for="states">States: </label>
+                <input id="states" type="text" size="40"placeholder="eg. Sarawak" name ="rstates">
+            </div>
+            <div class="linefb">
+                <label for="nationality">Nationality: </label>
+                <input id="nationality" type="text" size="40"placeholder="eg. Malaysian" name = "rnationality">
+            </div>
+            <div class="linefb">
+                <label for="email">Email Address: </label>
+                <input id="email" type="text" size="40" name="remail">
+            </div>
+            <div class="bttnfunction">
+                <input type="submit" name="submit" value="submit">
+                <input type="reset" name="cancel" value="cancel">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="icon">
+        <ul>
+            <li><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <hr color="white"/>
+    <div class="copyright">
+        Copyright &copy; FDDassignment| Developer: Kenneth & Chester & Lee Shin
+    </div>
+</footer>
+</body>
+
+</html>
